@@ -1,15 +1,16 @@
-import { useState } from "react";
-import Buscador from "./components/Buscador";
+import Viaje from './components/Viaje'
+import Header from './components/Header'
 
 function App() {
-  const [vuelos, setVuelos] = useState([]);
+return (
+    <div>
+      <Header
 
-  return (
-    <div className="container mx-auto mt-10">
-      <Buscador vuelos={vuelos} setVuelos={setVuelos} />
-      {/* Other components like ListaVuelos can be added here */}
+    />
+    <Viaje/>
     </div>
-  );
+    
+  )
 }
 
-export default App;
+export default App
