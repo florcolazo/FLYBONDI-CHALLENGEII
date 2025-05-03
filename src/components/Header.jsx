@@ -1,10 +1,11 @@
 const Header = () => {
     return (
-        <div className="rounded-xl bg-indigo-600 w-100 ">
-            <h1 className = "font-black  p-10 sm:text-4xl text-2xl text-center ">Seguimiento de Tareas de 
-        <   span className="text-white"> {""}Software</span></h1>  
+        <div className="bg-yellow-500 py-10 w-full rounded-b-xl shadow-md">
+            <h1 className="font-extrabold text-4xl sm:text-5xl text-center text-black">
+                Seguimiento de 
+                <span className="text-black"> {" "}vuelos</span>
+            </h1>
         </div>
-    
     );
 }
 
