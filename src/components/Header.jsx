@@ -1,12 +1,15 @@
+import React from 'react'
+import logo from '../assets/logo-05.png'
+import '../App.css'
+
+
 const Header = () => {
     return (
-        <div className="bg-yellow-500 py-10 w-full rounded-b-xl shadow-md">
-            <h1 className="font-extrabold text-4xl sm:text-5xl text-center text-black">
-                Seguimiento de 
-                <span className="text-black"> {" "}vuelos</span>
-            </h1>
-        </div>
-    );
+    <nav className="navbar text-center">
+        <img className='logo' src={logo} alt="Flybondi Logo" />
+
+    </nav>
+)
 }
 
-export default Header;
+export default Header

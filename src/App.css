@@ -1,42 +1,95 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+
+.root {
+    background-image: url('/assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+  
+
+
+nav {
+  
+    background-color: rgb(245, 239, 229); /* color claro tipo Flybondi */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 20px;
+  }
+
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: 50px;
+  margin-left: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgb(191, 188, 188);
+  border: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+input:hover {
+  box-shadow: 5px 5px 10px rgb(248, 196, 6);
 }
 
 .card {
-  padding: 2em;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  backdrop-filter: blur(2px);
 }
 
-.read-the-docs {
-  color: #888;
+.card:hover {
+  box-shadow: 5px 5px 20px rgb(248, 196, 6);
+}
+
+.not-viaje {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 447px;
+}
+
+.card-not {
+  width: 260px;
+  height: 80px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(243, 56, 56);
+  color: white;
+  border: none;
+}
+.card-not:hover {
+  box-shadow: 5px 5px 20px rgb(248, 196, 6);
+}
+.card-not:hover {
+  background-color: rgb(243, 56, 56);
+}
+
+.container-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
 }
