@@ -36,9 +36,7 @@ const Viaje = () => {
         />
       </div>
 
-      <div className="flex justify-center mb-4">
-        <img src={avionImage} alt="Avion" className="h-20" />
-      </div>
+
 
       <div className="container-form flex flex-wrap justify-center gap-4 px-4 pb-10">
         {resultado.length > 0 ? (
